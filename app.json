@@ -1,0 +1,16 @@
+{
+  "expo": {
+    "name": "Pause",
+    "slug": "pause",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "resizeMode": "contain",
+      "backgroundColor": "#f3efe6"
+    },
+    "assetBundlePatterns": ["**/*"],
+    "ios": { "supportsTablet": true },
+    "android": { "package": "com.research.pause" }
+  }
+}
