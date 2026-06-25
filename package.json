@@ -2,10 +2,13 @@
   "name": "pause",
   "version": "1.0.0",
   "main": "node_modules/expo/AppEntry.js",
+  "homepage": "https://R-mkrish.github.io/Anjum",
   "scripts": {
     "start": "expo start",
     "android": "expo start --android",
-    "ios": "expo start --ios"
+    "ios": "expo start --ios",
+    "predeploy": "npx expo export -p web",
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "@expo/metro-runtime": "~3.2.3",
@@ -18,5 +21,8 @@
     "react-native-svg": "15.2.0",
     "react-native-web": "~0.19.10"
   },
-  "private": true
+  "private": true,
+  "devDependencies": {
+    "gh-pages": "^6.3.0"
+  }
 }
